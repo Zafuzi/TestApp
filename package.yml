@@ -1,0 +1,12 @@
+name       : TestApp
+version    : 0.0.1
+release    : 1
+source     :
+  - ./TestApp.tar.gz : 8a6685667a2ac7fd948237f05b211e5c8a87db88663199e2a6cb0ef5a0c31d2b
+license    : GPL-2.0
+summary    : Simple Electron Test Build App
+description: a
+build      : |
+  %make
+install    : |
+  %make_install
